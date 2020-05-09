@@ -1,0 +1,22 @@
+{
+  "name": "authentication-microservice",
+  "version": "1.0.0",
+  "description": "Microservice for Authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawris/authentication-service.git"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "author": "Rishabh Rawat, Deepak Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawris/authentication-service/issues"
+  },
+  "homepage": "https://github.com/rawris/authentication-service#readme"
+}
