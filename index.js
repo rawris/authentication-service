@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
@@ -8,9 +9,8 @@ const compression = require('compression');
 const cookieParser = require('cookie-parser');
 const router = require('./server/routes');
 const {
-  initDBConnection
+  initDBConnection,
 } = require('./server/database/database');
-require('dotenv').config()
 
 const shouldCompress = (req, res) => {
   if (req.headers['x-no-compression']) {
@@ -32,7 +32,7 @@ app.use(morgan('dev'));
 app.use(cors({}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
-  extended: false
+  extended: false,
 }));
 app.use(cookieParser());
 
