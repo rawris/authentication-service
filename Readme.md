@@ -1,5 +1,7 @@
 # Authentication Microservice
 
+![Authentication Microservice](https://media-exp1.licdn.com/dms/image/C5622AQFzqR9pMFtTGA/feedshare-shrink_2048_1536/0?e=1592438400&v=beta&t=rj4Kcg36yo-a8aX2ItOMxl-m5acMSPn51Id65YKl_h4)
+
 Boilerplate for an Authentication Micro service using Node.js. Whenever we talk about setting up an authentication service. We usually have some elements which are common in every authentication service. Which includes functionalities like.
 
 - Sign up
